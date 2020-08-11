@@ -1,4 +1,4 @@
-FROM node:10
+FROM python:latest 
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
